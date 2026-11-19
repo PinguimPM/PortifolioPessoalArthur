@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur</title>
+    <!--favicon-->
+    <link rel="icon" href="assets/favicon.svg">
+    <!--fontes google-->
+    <link rel="preconnect" href="https://fonts.googleaps.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--folha de estilo-->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!--link de acessibilidade para o teclado-->
+    <a href="#home" class="link">Pular para a home</a>
+    <!--NAVEGAÇAO-->
+    <header id="topo" class="site-header" data-site-header>
+        <div class="container header inner">
+            <a href="#home" aria-label="Arthur - Pagina Inicial">
+            <span class="brand-mark" aria-hidden="true"> &lt;/&gt;</span>
+            <span class="bran-text"> Arthur <span class="bran-accent">.dev</span>
+        </span>
+        </a>
+        <!--controle checkbox invisivel-->
+        <input type="checkbox" 
+        id="nav-toggle"
+        class="nav-toggle-input"
+        aria-label="Abrir ou fechar menu de navegaçao"
+        data-nav-checkbox
+        >
+        <label for="nav-toggle" 
+        class="nav-toggle-btn"
+        aria-controls="primary-navigation"
+        data-nav-toggle
+        >
+        <span class="hamburger-lines" aria-hidden="true"></span>
+        <span class="sr-only">Menu</span>
+
+        </label>
+        <nav id="primary-navigation"
+        class="primary-nav"
+        aria-label="navegaçao principal"
+        data-nav-menu>
+        <ul class="nav-list" >
+            <li class="nav-item">
+                <a href="#home" class="nav-link" data-nav-link>Inicio</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#home" class="nav-link" data-nav-link>Sobre</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#home" class="nav-link" data-nav-link>Projetos</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#home" class="nav-link" data-nav-link>Contatos</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#home" class="nav-link" data-nav-link>Experiencias</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#home" class="nav-link" data-nav-link>Saiba mais</a>
+            </li>
+        </ul>
+
+        </nav>
+        </div>
+    </header>
+    <!--sessao sobre-->
+</body>
+</html>
